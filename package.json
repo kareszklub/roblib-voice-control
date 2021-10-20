@@ -12,7 +12,10 @@
 		"start": "node ."
 	},
 	"dependencies": {
+		"@google-cloud/speech": "^4.9.0",
 		"@kareszklub/roblib-client": "github:kareszklub/roblib-client#main",
+		"dotenv": "^10.0.0",
+		"node-record-lpcm16": "^1.0.1",
 		"socket.io-client": "^4.3.2"
 	},
 	"devDependencies": {
